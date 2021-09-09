@@ -29,7 +29,26 @@ Dicho repositorio debe tener al menos 3 commits
             echo 'Valor de raiz cuadrada: ' . $raiz_cuadrada . "<br/>\n";
         }
         
-        ?>  
+        ?>
+         <form method="post">
+            <table style="text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="1" cellspacing="1">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="numero">Ingresa el valor de numero:</label>
+                        </td>
+                        <td>
+                            <input name="numero" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="submit" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>  
     </body>
 </html>
 
